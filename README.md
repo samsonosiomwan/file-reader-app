@@ -1,5 +1,8 @@
 # Working with Files (File I/O)
 
+#Technology: pandas library
+
+# user story
 The company you work with needs some modules in a bigger project for doing the following
 
 - Performing IO operations on specifically 3 different files namely, Text, CSV and TSV files
@@ -42,12 +45,12 @@ In the bigger project, there exist two modules **ReadBytesFromFile** and **Proce
 - Ensure to write unittest that covers at least 90% of your implementation
 - When done and all tests are passing, raise a PR with a good title and body structure based on the content of the PR template you created at the beginning.
 
-### What you will be practicalizing and will be used for reviews
+### Approach
 
 - Understanding specification and asking timely questions where necessary.
-- Breaking down large tasks into the smallest chunk of work
+- Broke down large tasks into the smallest chunk of work
 - Splitting a large module into components based on specification and understanding how to assemble these components to make up the whole usable module.
-- Creating a good folder structure for module components.
+- Created a good folder structure for module components.
 - Strictly writing codes that comply with the SOLID principles.
 - Understanding and using a third party library such as Pandas.
 - Inheritance and Interface Polymorphisms.
@@ -66,7 +69,13 @@ In the bigger project, there exist two modules **ReadBytesFromFile** and **Proce
 -run python main.py name_of_file_to_read on your terminal or command line
 
 ## screen shots : read all
+![Screen Shot 2021-09-09 at 9 28 46 AM](https://user-images.githubusercontent.com/81101034/132652021-7f5d6da1-7233-48df-995e-4ac299817cd9.png)
+
 
 ## screen shots : read first two lines
+![Screen Shot 2021-09-09 at 9 28 58 AM](https://user-images.githubusercontent.com/81101034/132652082-fea700d1-634c-4493-8967-7519532db3d1.png)
+
 
 ## screen shots : read last two lines
+![Screen Shot 2021-09-09 at 9 35 20 AM](https://user-images.githubusercontent.com/81101034/132652251-6c374640-c3a0-4b49-b44e-8154657e794c.png)
+
